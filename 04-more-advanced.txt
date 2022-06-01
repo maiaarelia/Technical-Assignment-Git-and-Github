@@ -1,0 +1,21 @@
+Technical Assignment Arelia Maia Ashary
+Git dan Github More Advanced
+
+Answer the following questions
+
+1. What is the difference between git reset and git revert. When would you use one over the other?
+    => GIT REVERT akan membatalkan semua perubahan yang ada tanpa menghapus commit terakhir. Namun, 
+       GIT RESET akan membatalkan semua perubahan yang ada tetapi commmit terakhir akan hilang.
+       -> Git Revert
+
+
+2. What is the difference between git merge and git rebase. When would you use one over the other?
+    => Git Merge digunakan untuk menyatukan branch cabang fitur yang telah dikembangkan. Sedangkan, 
+       Git Rebase digunakan untuk menggabungkan atau menggeser commit base. 
+       -> Git Merge
+
+
+3. What is the difference between git stash pop and git stash apply. When would you use one over the other?
+    => Git Stash Pop membuang simpanan (paling atas, secara default) setelah menerapkannya, sedangkan Git Stash Apply meninggalkannya di daftar simpanan untuk kemungkinan digunakan kembali nanti.
+    Ini terjadi kecuali jika ada konflik setelahnya git stash pop, dalam hal ini tidak akan menghapus simpanan, membiarkannya berperilaku seperti itu git stash apply.
+       -> Git Stash Apply
