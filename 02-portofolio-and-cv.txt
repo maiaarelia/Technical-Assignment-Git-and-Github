@@ -20,7 +20,7 @@ Git dan Github Portofolio and CV
 	"Halo perkenalkan aku halaman utama" -> "Hello World"
 
 5. Tampilkan isi teks tersebut pada command line menggunakan command cat
-	=> cat D:/joyful/AreliaMaia/README.md
+	=> cat README.md
 
 6. Ternyata kamu tidak ingin perubahan tersebut, dan ingin kembali ke perubahan seperti commit yang terakhir. Lakukan teknik git backtracking untuk mengembalikan ke perubahan commit yang terakhir.
 	=> git checkout README.md
